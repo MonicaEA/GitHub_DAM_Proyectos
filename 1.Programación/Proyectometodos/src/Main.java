@@ -26,6 +26,8 @@ public class Main {
             System.out.println("Encantada de saludarte vamos a practicar");
             System.out.println("Vamos a practicar el llamado de metodos");
             System.out.println("Ánimo no decaigas en tu tarea");
+            System.out.println("probando");
+            
 
         }
 public static void despedir(){
