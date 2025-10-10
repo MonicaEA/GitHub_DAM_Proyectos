@@ -7,7 +7,7 @@ public class Main {
         System.out.println("Proyecto metodos");
         System.out.println("Vamos a realizar llamadas a metodos");
         saludar("Mónica");
-        saludar("Yaiza");
+        saludar("Manolo");
         despedir();
         Calculadora calculadoramatematica = new Calculadora();
         calculadoramatematica.sumar(1,2);
