@@ -10,8 +10,8 @@ public class Main {
         saludar("Manolo");
         despedir();
         Calculadora calculadoramatematica = new Calculadora();
-        calculadoramatematica.sumar(1,2);
-        calculadoramatematica.restar(13,14);
+        calculadoramatematica.sumar(20,2);
+        calculadoramatematica.restar(137,14);
         Multiplicacion multiplicacion = new Multiplicacion();
         multiplicacion.multiplicacion(40,50);
 
