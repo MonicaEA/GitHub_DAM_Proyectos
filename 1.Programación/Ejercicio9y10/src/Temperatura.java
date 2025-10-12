@@ -2,7 +2,7 @@ public class Temperatura {
     public static void main(String[] args) {
 
         // Variable grados celsius
-        double celsius = 33;
+        double celsius = 40;
 
         // Fórmula para convertir a Fahrenheit
 
