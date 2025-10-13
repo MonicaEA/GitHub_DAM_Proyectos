@@ -19,9 +19,9 @@ public class Calculadora {
         double resta = num1 - num2;
         System.out.println("Resta: " + resta);
         double multiplicacion = num1 * num2;
-        System.out.println("Resta: " + multiplicacion);
+        System.out.println("Multiplicación: " + multiplicacion);
         double division = num1 - num2;
-        System.out.println("Resta: " + division);
+        System.out.println("División: " + division);
 
         System.out.println("¡Disfruta las matemáticas!");
 
