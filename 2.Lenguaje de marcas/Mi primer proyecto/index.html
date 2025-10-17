@@ -43,7 +43,7 @@
                     <td>clic</td>
                     <td>editar</td>
                     <td>borrar</td>
-                    
+
                 </tr>
                 <td>#123</td>
                 <td>12/12/2025</td>
@@ -82,20 +82,147 @@
 
         </table>
         <br><br>
-        <form>
-            <label>Nombre: 
-                <input type="text" placeholder="Escribe aqui tu nombre" required>
-            </label>
-            <br><br>
-            <label>Edad
-                <input type="number" min="2" max="90" step="0.5" placeholder="Escribe aqui tu edad">
-            </label>
-            <br><br>
-            <label>Fecha nacimiento:
-                <input type="date" placeholder="Escribe aqui tu fecha">
-            </label>
-            <p></p>
-            <button type="submit">Enviar</button>
+        <form id="contact-form">
+
+            <fieldset>
+
+                <legend>Datos básicos</legend>
+                <label>Nombre:
+                    <input type="text" placeholder="Escribe aqui tu nombre" required>
+                </label>
+                <br><br>
+                <label>Edad
+                    <input type="number" min="2" max="90" step="0.5" placeholder="Escribe aqui tu edad">
+                </label>
+                <br><br>
+                <label>Fecha nacimiento:
+                    <input type="date" placeholder="Escribe aqui tu fecha">
+                </label>
+                <p></p>
+                <label>Email:
+                    <input type="email" placeholder="Escribe aqui tu email">
+                </label>
+                <p></p>
+                <label>Teléfono:
+                    <input type="tel" placeholder="Escribe aqui tu teléfono">
+                </label>
+                <p></p>
+                <label>Contraseña:
+                    <input type="password" minlength="8" placeholder="Escribe aqui tu contraseña">
+                </label>
+                <p></p>
+                <button type="submit">Enviar</button>
+            </fieldset>
+
+            <fieldset>
+                <legend>Fecha, hora y número</legend>
+
+                <label>Hora de inicio:
+                    <input type="time" step="60">
+                </label>
+                <p></p>
+
+                <label>Cita
+                    <input type="datetime-local">
+                </label>
+                <p></p>
+
+                <label>Mes
+                    <input type="month">
+                </label>
+                <p></p>
+
+                <label>Semana
+                    <input type="week">
+                </label>
+                <p></p>
+
+                <label>Prioridad
+                    <input type="range" max="100" min="0" value="50"
+                        oninput="document.getElementById('valorRango').value=this.value">
+                </label>
+                <output id="valorRango">50</output>
+                <p></p>
+
+                <label>Color Favorito
+                    <input type="color" value="#555555">
+                </label>
+                <p></p>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Opciones y listas</legend>
+
+                <fieldset>
+                    <input type="radio" name="tipo_pepino" value="moreno">
+                    <label>Moreno</label>
+
+                    <input type="radio" name="tipo_pepino" value="kirby" checked>
+                    <label>Kirby</label>
+
+                    <input type="radio" name="tipo_pepino" value="rubio">
+                    <label>Rubio</label>
+                </fieldset>
+                <p></p>
+
+                <fieldset>
+                    <input type="checkbox" name="extras" value="ketchup">
+                    <label>ketchup</label>
+                    <p></p>
+
+                    <input type="checkbox" name="extras" value="costilleta">
+                    <label>Costilleta</label>
+                    <p></p>
+                    <input type="checkbox" name="extras" value="nocilla">
+                    <label>Nocilla</label>
+
+                </fieldset>
+                <p></p>
+                <label>Variedad</label>
+                <select id="variedadPepino" name="variedadPepino">
+                    <option value="sinOpcion">---------</option>
+                    <optgroup label="Clásicos"> 
+                    <option value="Holandes">Holandés</option>
+                    <option value="Espanol">Español</option>
+                    </optgroup>
+                    <optgroup label="Exclusivos">
+                    <option value="Marroquí">Marruecos</option>
+                     <option value="Rumano">Rumano</option>
+                                        </optgroup>
+
+                </select>
+
+                <p></p>
+                <p></p>
+
+                <label>Lotes (puedes elegir varios)</label>
+                <select name="lotes[]" id="Lotes" multiple size="4">
+                    <option value="lote 1">Lote 1</option>
+                    <option value="lote 2">Lote 2</option>
+                    <option value="lote 3">Lote 3</option>
+                    <option value="lote 4">Lote 4</option>
+                     <option value="lote 5">Lote 5</option>
+                    <option value="lote 6">Lote 6</option>
+                    <option value="lote 7">Lote 7</option>
+                    <option value="lote 8">Lote 8</option>
+                
+
+
+
+                </select>
+
+
+
+
+
+            </fieldset>
+
+
+
+
+
+            </fieldset>
 
         </form>
 
