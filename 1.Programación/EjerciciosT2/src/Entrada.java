@@ -9,6 +9,8 @@ public class Entrada {
         //new Ejercicio5().ejercicio5();
         //new Ejercicio6().ejercicio6();
         //new Ejercicio7().ejercicio7();
-        new Ejercicio8().ejercicio8();
+        //new Ejercicio8().ejercicio8();
+        new Ejercicio9().ejercicio9();
+        //new Ejercicio10().ejercicio10();
     }
 }

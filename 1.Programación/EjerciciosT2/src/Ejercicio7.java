@@ -25,29 +25,23 @@ Introduce tu edad: 24
         System.out.print("¿Eres estudiante? (true/false): ");
         boolean esEstudiante = scanner.nextBoolean();
 
-        //Determinar condiciones base usando operadores relacionales
-        // (La condición para el descuento joven)
+        //Determinar condiciones
         boolean esMenorDe26 = edad < 26;
 
         //Mostrar las condiciones base
         System.out.println("¿Eres menor de 26 años?: " + esMenorDe26);
         System.out.println("¿Eres estudiante?: " + esEstudiante);
 
-        //Aplicar el operador NOT (operador lógico !)
-        // Muestra la negación de la condición 'esEstudiante'
+
         boolean noEsEstudiante = !esEstudiante;
         System.out.println("¿NO eres estudiante? (NOT): " + noEsEstudiante);
 
-        //Determinar los descuentos usando operadores lógicos
-
-        // Descuento Joven (Menor de 26) - Ya determinado en la condición base
         boolean descuentoJoven = esMenorDe26;
 
         // Descuento Estudiante (Es estudiante) - Ya determinado en la condición base
         boolean descuentoEstudiante = esEstudiante;
 
         // Descuento Especial: Menor de 26 Y Estudiante
-        // Se usa el operador AND (&&)
         boolean descuentoEspecial = esMenorDe26 && esEstudiante;
 
         // 8. Mostrar los resultados de los descuentos
