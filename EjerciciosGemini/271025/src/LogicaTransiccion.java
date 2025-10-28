@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class LogicaTransiccion {
 
     // CORRECCIÓN 1: Todo el código ejecutable debe ir dentro de main
-    public static void main(String[] args) {
+    public void banco() {
         // CORRECCIÓN 2: Declaración e inicialización del Scanner
         Scanner scanner = new Scanner(System.in);
 

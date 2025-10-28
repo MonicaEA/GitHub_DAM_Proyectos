@@ -4,7 +4,7 @@ public class Entrada {
         //new EjercicioLogicaAdmision().logicaAdmision();
         //new ClasificacionCalificaciones().calificaciones();
         //new Semaforo().semaforo();
-        new LogicaTransiccion().logica();
+        new LogicaTransiccion().banco();
 
     }
 }
