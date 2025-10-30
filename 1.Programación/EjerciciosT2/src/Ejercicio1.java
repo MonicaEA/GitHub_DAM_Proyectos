@@ -12,7 +12,7 @@ Resta: 11
 Multiplicación: 60
 División: 3
 Módulo (resto): 3*/
-    public void ejercicio1() {
+    public void ejercicioPrimero() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Introduce un número entero");
         int num1 = scanner.nextInt();

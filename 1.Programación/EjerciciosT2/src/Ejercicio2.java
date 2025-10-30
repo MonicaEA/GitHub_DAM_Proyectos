@@ -15,21 +15,30 @@ public class Ejercicio2 {
             ¿10 es mayor o igual que 10?: true
             ¿10 es menor o igual que 10?: true*/
 
-    //Solicitamos al programa 2 números
-    public void ejercicio2(){
-        System.out.println("Introduce el primer número: ");
-        int num1 = scanner.nextInt();
-        System.out.println("Introduce el segundo número: ");
-        int num2 = scanner.nextInt();
+public void ejercicio2(){
 
-        //Ahora operamos con comparaciones relacionales
+    System.out.println("Escribe el primer número");
+    int num1 = scanner.nextInt();
+    System.out.println("Introduzca el segundo número");
+    int num2 = scanner.nextInt();
 
-        System.out.println("¿"+num1+ " es mayor que " +num2 + "?: " +( num1>num2));
-        System.out.println("¿"+num1+ " es menor que " +num2 + "?: " + ( num1<num2));
-        System.out.println("¿"+num1+ " es igual que " +num2 + "?: " + ( num1==num2));
-        System.out.println("¿"+num1+ " es diferente a " +num2 + "?: " +( num1!=num2));
-        System.out.println("¿"+num1+ " es mayor o igual que " +num2 + "?: " +( num1>=num2));
-        System.out.println("¿"+num1+ " es menor o igual que " +num2 + "?: " +( num1<=num2));
+    boolean mayorQue10 = num1>num2;
+    boolean menorQue10 = num1<num1;
+    boolean igualQue= num1==num2;
+    boolean diferente = num1!=num2;
+    boolean mayorIgual = num1 >= num2;
+    boolean menorIgual = num1<=num2;
+
+
+    System.out.println("¿ "+num1+" es mayor que "+num2 +"?: "+ mayorQue10);
+    System.out.println("¿ "+num1+" es menor que "+num2 +"?: "+ menorQue10);
+    System.out.println("¿ "+num1+" es igual que que "+num2 +"?: "+ igualQue);
+    System.out.println("¿ "+num1+" es diferente a "+num2 +"?: "+ diferente);
+    System.out.println("¿ "+num1+" es mayor o igual que "+num2 +"?: "+ mayorIgual);
+    System.out.println("¿ "+num1+" es menor o igual que "+num2 +"?: "+ menorIgual);
+
+
+}
 
 
 
@@ -37,9 +46,3 @@ public class Ejercicio2 {
 
     }
 
-
-
-
-
-
-}
