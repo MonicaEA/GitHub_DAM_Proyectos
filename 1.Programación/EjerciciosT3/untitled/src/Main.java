@@ -18,8 +18,22 @@ public static void main(String[] args) {
     //ejercicio9.ejercicio9();
     //Ejercicio10 ejercicio10 = new Ejercicio10();
     //ejercicio10.ejercicio10();
-    Ejercicio11 ejercicio11 = new Ejercicio11();
-    ejercicio11.ejercicio11();
+    //Ejercicio11 ejercicio11 = new Ejercicio11();
+    //ejercicio11.ejercicio11();
+    //Ejercicio13 ejercicio13 = new Ejercicio13();
+    //ejercicio13.ejercicio13();
+    //Ejercicio14 ejercicio14 = new Ejercicio14();
+    //ejercicio14.ejercicio14();
+    //Ejercicio15 ejercicio15 = new Ejercicio15();
+    //ejercicio15.ejercicio15();
+    //EjercicioFor1 ejercicioFor1 = new EjercicioFor1();
+    //ejercicioFor1.ejercicioFor1();
+    //EjercicioFor2 ejercicioFor2 = new EjercicioFor2();
+    //ejercicioFor2.ejercicioFor2();
+    EjercicioFor3 ejercicioFor3 = new EjercicioFor3();
+    ejercicioFor3.ejercicioFor3();
+
+
 
 
     }
