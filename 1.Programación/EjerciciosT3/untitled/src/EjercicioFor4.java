@@ -10,16 +10,31 @@ public class EjercicioFor4 {
     public void ejercicioFor4(){
     Scanner scanner = new Scanner(System.in);
         System.out.println("-----MENÚ-----");
-        System.out.println("Selecciona una opción");
+
         System.out.println("1.Ver perfil");
         System.out.println("2.Configuración");
-        System.out.println("1.Ayuda");
-        System.out.println("1.Salir");
+        System.out.println("3.Ayuda");
+        System.out.println("4.Salir");
+        System.out.println("Elige una opción");
+
         String seleccion = scanner.next();
 
         switch (seleccion){
 
-            case 1:
+            case "1":
+                System.out.println("Has seleccionado: Ver perfil");
+                break;
+            case "2":
+                System.out.println("Has selecccionado: Configuración");
+                break;
+            case "3" :
+                System.out.println("Has seleccionado : Ayuda");
+                break;
+            case "4":
+                System.out.println("Has seleccionado : Salir");
+                break;
+            default:
+                System.out.println("Opción no valida");
 
 
 
