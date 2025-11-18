@@ -1,0 +1,255 @@
+/* 
+----------------------------------------------------------
+   SECCIÓN GLOBAL: ESTILOS BASE Y RESETEO
+----------------------------------------------------------
+*/
+
+/* 
+El selector universal aplica un color de fondo base a todo el documento.
+Se utiliza un verde muy claro para facilitar la lectura sobre el fondo.
+*/
+* {
+  background-color: #EAF4EC; /* Verde claro */
+}
+
+/* 
+El elemento raíz define color base del texto.
+*/
+html {
+  color: #1A1A1A; /* Gris oscuro para alta legibilidad */
+}
+
+/*
+Fuente base del documento. Se usa Poppins por su buena legibilidad y estilo geométrico.
+*/
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 16px;
+}
+
+
+/* ----------------------------------------------------------
+   CABECERA CON FONDO OSCURO COMPLETO
+---------------------------------------------------------- */
+
+header {
+  background-color: #111;   /* Gris casi negro */
+  color: #fff;              /* Texto blanco */
+  text-align: center;
+  padding: 30px 0;
+}
+
+/* Subtítulo */
+header p {
+  color: #ccc;              /* Gris claro */
+  background-color: #111;   /* Asegura que NO queda franja blanca debajo */
+  margin: 0;
+  padding: 10px 0;
+}
+
+/* Imagen dentro de la cabecera */
+header img {
+  background-color: #111;   /* Evita que salga un rectángulo claro */
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 180px;
+  height: auto;
+}
+
+/* Si tienes un contenedor de la imagen dentro del header */
+header .img-wrapper {
+  background-color: #111;    /* Elimina fondos claros */
+  padding: 20px 0;
+}
+
+
+
+/* 
+----------------------------------------------------------
+   SECCIÓN CON IMAGEN / HERO AREA
+----------------------------------------------------------
+*/
+
+/*
+Área destacada donde se muestra la imagen principal.
+El fondo se cambia a un verde medio para generar contraste uniforme.
+*/
+.hero-area,
+.hero {
+  background-color: #A8D5BA; /* Verde suave */
+}
+
+
+/* 
+----------------------------------------------------------
+   ENLACES <a>
+----------------------------------------------------------
+*/
+
+/*
+Los enlaces usan un color verde oscuro que mantiene contraste suficiente.
+*/
+a {
+  text-decoration: none;
+  color: #145A32; /* Verde oscuro */
+}
+
+/*
+El estado hover modifica ligeramente el color para indicar interacción.
+*/
+a:hover {
+  text-decoration: underline;
+  color: #27AE60; /* Verde más claro */
+}
+
+
+/* 
+----------------------------------------------------------
+   CLASE .logo
+----------------------------------------------------------
+*/
+
+/*
+La clase .logo controla el tamaño y la forma del logotipo.
+*/
+.logo {
+  width: 20%;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #145A32; /* Borde verde oscuro */
+}
+
+
+/* 
+----------------------------------------------------------
+   TITULOS
+----------------------------------------------------------
+*/
+
+/*
+Estilo para <h2> dentro de la sección .content.
+*/
+.content h2,
+h2 {
+  font-size: 1.6rem;
+  color: #145A32; /* Verde oscuro */
+  margin: 200px 130px 50px;
+}
+
+h3 {
+  color: #1D8348; /* Verde medio */
+}
+
+
+/* 
+----------------------------------------------------------
+   BOTONES
+----------------------------------------------------------
+*/
+
+/*
+Los botones comparten padding y esquinas redondeadas.
+*/
+.btn {
+  padding: 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+/*
+Botón principal con fondo verde medio.
+*/
+.btn-enviar {
+  border-radius: 8px;
+  background: #1D8348; /* Verde medio */
+  color: #FFFFFF;       /* Texto blanco */
+  padding: 20px 20px;   /*tamaño*/
+}
+
+.btn-borrar{
+border-radius: 8px;
+  background: #1D8348;
+  color: #FFFFFF;
+  padding: 20px 20px; /*tamaño*/
+
+}
+
+/*
+En hover se aumenta el brillo para indicar interacción.
+*/
+.btn-enviar:hover {
+  filter: brightness(1.25);
+ 
+}
+
+.btn-borrar:hover{
+
+  filter: brightness(1.25);
+}
+
+/*
+  TABLA DE TARIFAS
+  El solid es para que salga , sino no aparece
+*/
+
+.tabla-tarifas{
+
+width: 100%; /*ocupa el 100% de la página*/
+border: 2px solid #333;
+border-radius: 8px;
+background: #FFFFFF;
+overflow: hidden;  //* quita el redondeado*/
+
+
+}
+
+.tabla-tarifas thead th{
+  background: #207c46;
+  color: #fff;  /* cambia color del texto*/
+  padding: 10px;
+  border-bottom: 4px #1A1A1A solid;
+
+
+}
+
+.tabla-tarifas td {
+  border: 1px solid #333;
+  background: #d2f3dc;
+  padding: 9px;
+  vertical-align: center;  /* alineación vertical */
+
+
+}
+
+/*FORMULARIO*/
+
+.contacto h2{
+ margin-top: 10px; /*margen arriba*/
+ margin-bottom: 6px; /*margen abajo*/
+
+
+}
+.contacto p {
+margin-bottom: 8px;
+
+}
+
+.form {
+  background: #d3ecdd;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 16px;
+
+}
+
+.campo{
+   
+ color: #0a0a0a;
+ 
+}
+
+.acciones{
+  background: #c1e7d2;
+
+}
