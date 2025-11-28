@@ -16,13 +16,27 @@ public class Ejercicio1 {
 
    public void ejercicio1(){
 
-       System.out.println("Introduce tu calificación: ");
+       System.out.println("Introduce tu calificación (0-10): ");
        double calificacion = scanner.nextDouble();
+       int notaEntera = (int)calificacion;
 
-       switch (calificacion){
+       String letra = switch (notaEntera) {
 
-           case 1 ->
+           case 9, 10 -> "A";
+           case 7, 8 -> "B";
+           case 5, 6 -> "C";
+           case 4 -> "D";
+           case 0, 3 -> "F";
+           default -> "X";
 
+
+       };
+       if(letra.equals("X")){
+           System.out.println("Valor fuera de rango");
+
+
+       }else {
+           System.out.println("Tu calificación es: "+letra);
 
        }
 
