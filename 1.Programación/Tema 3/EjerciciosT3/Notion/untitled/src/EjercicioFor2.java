@@ -37,8 +37,14 @@ Scanner scanner = new Scanner(System.in);
 
         }
 
-        System.out.printf("\nCalificación:%s Tu nota es:%s",nota,notaFinal);
+        int num = 1;
+        int num2= 2;
+        String letra = "letras";
+        double decimal = 2.2;
 
+        System.out.printf("\nCalificación:%s Tu nota es:%s",nota,notaFinal)
+        System.out.printf("los numeros son %d y %d . La palabra es %s y el numero decimal es %f "num,num2,letra,decimal);
+                //%s letras %d %f
 
         scanner.close();
 
