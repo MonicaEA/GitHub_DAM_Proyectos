@@ -4,9 +4,10 @@ public class Main {
 
     //Ejercicio1 ejercicio1 = new Ejercicio1();
     //ejercicio1.sumaMatrices();
-    Ejercicio2 ejercicio2 = new Ejercicio2();
-    ejercicio2.menuSeleccion();
-
+    //Ejercicio2 ejercicio2 = new Ejercicio2();
+    //ejercicio2.menuSeleccion();
+    Ejercicio3 ejercicio3 = new Ejercicio3();
+    ejercicio3.calificacionesAlumnos();
 
 
     }
